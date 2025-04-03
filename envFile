@@ -1,0 +1,8 @@
+NODE_ENV = localhost
+PORT = 3000
+DB_HOST = localhost
+DB_NAME = social_network_api
+DB_PORT = 27017
+JWT_SECRET = abcd123
+JWT_EXPIRE = 24h
+IMAGE_ACCESS_URL = http://localhost:3000/
