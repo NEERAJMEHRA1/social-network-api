@@ -3,6 +3,8 @@
 // first run this and install all module
 # npm i
 
+//Create .env and paste all from envFile into .env
+
 // after that start server
 # node index.js
 
