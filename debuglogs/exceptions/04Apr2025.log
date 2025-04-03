@@ -1,0 +1,252 @@
+04-04-2025 12:28:17 AM error: uncaughtException: C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\swagger.json: Expected double-quoted property name in JSON at position 24750 (line 571 column 9)
+SyntaxError: C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\swagger.json: Expected double-quoted property name in JSON at position 24750 (line 571 column 9)
+    at parse (<anonymous>)
+    at Object..json (node:internal/modules/cjs/loader:1701:39)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js:11:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25) {
+  "error": {},
+  "stack": "SyntaxError: C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\swagger.json: Expected double-quoted property name in JSON at position 24750 (line 571 column 9)\n    at parse (<anonymous>)\n    at Object..json (node:internal/modules/cjs/loader:1701:39)\n    at Module.load (node:internal/modules/cjs/loader:1318:32)\n    at Function._load (node:internal/modules/cjs/loader:1128:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)\n    at Module.require (node:internal/modules/cjs/loader:1340:12)\n    at require (node:internal/modules/helpers:141:16)\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js:11:20\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)",
+  "exception": true,
+  "date": "Fri Apr 04 2025 00:28:17 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 44980,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86822912,
+      "heapTotal": 61345792,
+      "heapUsed": 34037160,
+      "external": 21933329,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 906894.703
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": "parse",
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 39,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..json",
+      "line": 1701,
+      "method": ".json",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1318,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1128,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 315,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 218,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1340,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 141,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+04-04-2025 12:28:34 AM error: uncaughtException: C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\swagger.json: Expected double-quoted property name in JSON at position 24750 (line 571 column 9)
+SyntaxError: C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\swagger.json: Expected double-quoted property name in JSON at position 24750 (line 571 column 9)
+    at parse (<anonymous>)
+    at Object..json (node:internal/modules/cjs/loader:1701:39)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js:11:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25) {
+  "error": {},
+  "stack": "SyntaxError: C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\swagger.json: Expected double-quoted property name in JSON at position 24750 (line 571 column 9)\n    at parse (<anonymous>)\n    at Object..json (node:internal/modules/cjs/loader:1701:39)\n    at Module.load (node:internal/modules/cjs/loader:1318:32)\n    at Function._load (node:internal/modules/cjs/loader:1128:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)\n    at Module.require (node:internal/modules/cjs/loader:1340:12)\n    at require (node:internal/modules/helpers:141:16)\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js:11:20\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)",
+  "exception": true,
+  "date": "Fri Apr 04 2025 00:28:34 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 55708,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86237184,
+      "heapTotal": 61083648,
+      "heapUsed": 34103960,
+      "external": 21933329,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 906911.89
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": "parse",
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 39,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..json",
+      "line": 1701,
+      "method": ".json",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1318,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1128,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 315,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 218,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1340,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 141,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    }
+  ]
+}

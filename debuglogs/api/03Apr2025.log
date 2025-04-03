@@ -1,0 +1,1040 @@
+03-04-2025 10:21:13 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:23:01 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:24:01 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:24:50 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:34:48 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:35:23 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:36:38 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:37:52 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:38:18 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:39:05 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:39:26 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:39:34 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:39:45 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:39:52 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:39:59 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:40:03 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:40:33 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:40:46 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:42:04 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:42:28 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:42:45 PM info: #####*****userRegister : user register success*****##### 
+03-04-2025 10:43:36 PM info: #####*****userLogin : user login success*****##### 
+03-04-2025 10:45:43 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:46:25 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:46:41 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:46:59 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:53:27 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:54:50 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:55:05 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:56:00 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:56:13 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:56:19 PM info: Server running at : http://localhost:3000 
+03-04-2025 10:58:04 PM error: uncaughtException: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:205:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: exports is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:205:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 22:58:04 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 26320,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86736896,
+      "heapTotal": 61349888,
+      "heapUsed": 34244816,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 901481.718
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js",
+      "function": null,
+      "line": 205,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 10:59:23 PM error: uncaughtException: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:205:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: exports is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:205:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 22:59:23 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20112,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86360064,
+      "heapTotal": 61345792,
+      "heapUsed": 33760720,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 901560.921
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js",
+      "function": null,
+      "line": 205,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:00:02 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:00:15 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:01:49 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:02:08 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:03:00 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:03:15 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:03:26 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:03:56 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:04:58 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:05:05 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:05:34 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:06:29 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:06:46 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:07:44 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:08:37 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:09:03 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:09:08 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:09:15 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:09:31 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:09:43 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:11:36 PM error: uncaughtException: Route.post() requires a callback function but got a [object String]
+Error: Route.post() requires a callback function but got a [object String]
+    at Route.<computed> [as post] (C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as post] (C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:9:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "Error: Route.post() requires a callback function but got a [object String]\n    at Route.<computed> [as post] (C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at proto.<computed> [as post] (C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:9:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:11:36 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 47984,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86892544,
+      "heapTotal": 61349888,
+      "heapUsed": 34325304,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 902293.453
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\node_modules\\express\\lib\\router\\route.js",
+      "function": "Route.<computed> [as post]",
+      "line": 216,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\node_modules\\express\\lib\\router\\index.js",
+      "function": "proto.<computed> [as post]",
+      "line": 521,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js",
+      "function": null,
+      "line": 9,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:11:50 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:12:17 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:12:29 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:12:41 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:13:11 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:13:17 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:13:31 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:13:41 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:14:06 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:14:40 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:14:47 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:14:57 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:15:16 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:15:31 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:15:58 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:16:40 PM info: #####*****userRegister : user register success*****##### 
+03-04-2025 11:17:47 PM info: #####*****sendFriendRequest : Request sended successfully*****##### 
+03-04-2025 11:22:24 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:23:21 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:23:39 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:24:16 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:24:19 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:24:23 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:25:03 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:25:26 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:25:45 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:26:58 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:27:11 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:27:16 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:27:43 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:28:09 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:28:30 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:29:06 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:29:45 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:29:51 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:30:00 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:30:06 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:30:09 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:30:13 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:30:55 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:31:06 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:31:20 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:31:31 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:31:58 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:32:12 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:32:26 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:33:19 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:33:47 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:34:00 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:35:26 PM error: uncaughtException: C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\swagger.json: Expected ',' or '}' after property value in JSON at position 15910 (line 390 column 9)
+SyntaxError: C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\swagger.json: Expected ',' or '}' after property value in JSON at position 15910 (line 390 column 9)
+    at parse (<anonymous>)
+    at Object..json (node:internal/modules/cjs/loader:1701:39)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js:11:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25) {
+  "error": {},
+  "stack": "SyntaxError: C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\swagger.json: Expected ',' or '}' after property value in JSON at position 15910 (line 390 column 9)\n    at parse (<anonymous>)\n    at Object..json (node:internal/modules/cjs/loader:1701:39)\n    at Module.load (node:internal/modules/cjs/loader:1318:32)\n    at Function._load (node:internal/modules/cjs/loader:1128:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)\n    at Module.require (node:internal/modules/cjs/loader:1340:12)\n    at require (node:internal/modules/helpers:141:16)\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js:11:20\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:35:26 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 42092,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86171648,
+      "heapTotal": 61083648,
+      "heapUsed": 34052688,
+      "external": 21933329,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 903723.562
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": "parse",
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 39,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..json",
+      "line": 1701,
+      "method": ".json",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1318,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1128,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 315,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 218,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1340,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 141,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/index.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:35:53 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:37:28 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:37:36 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:37:44 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:38:21 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:38:51 PM info: #####*****userLogin : user login success*****##### 
+03-04-2025 11:39:41 PM info: #####****respondToFriendRequest : request 1 successfully*****##### 
+03-04-2025 11:40:48 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:41:36 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:41:44 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:41:48 PM info: #####****respondToFriendRequest : request Accepted successfully*****##### 
+03-04-2025 11:43:59 PM error: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:130:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:130:21\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:43:59 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 33384,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86609920,
+      "heapTotal": 61349888,
+      "heapUsed": 34277576,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 904236.265
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 21,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js",
+      "function": null,
+      "line": 130,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:44:18 PM error: uncaughtException: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:130:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: exports is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:130:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:44:18 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 53092,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86482944,
+      "heapTotal": 61083648,
+      "heapUsed": 33941376,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 904255.687
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js",
+      "function": null,
+      "line": 130,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:44:28 PM error: uncaughtException: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\hp\Desktop\Neeraj-Mehra\social_network_api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:130:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: exports is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js:130:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:44:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6108,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86781952,
+      "heapTotal": 61349888,
+      "heapUsed": 34515472,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 904265.562
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 1,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/controller.js",
+      "function": null,
+      "line": 130,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:45:00 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:45:06 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:47:07 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:52:22 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:52:28 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:53:26 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:54:16 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:54:32 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:55:05 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:55:17 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:55:45 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:56:09 PM error: uncaughtException: getAllFriends is not defined
+ReferenceError: getAllFriends is not defined
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: getAllFriends is not defined\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:56:09 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 65808,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86466560,
+      "heapTotal": 61345792,
+      "heapUsed": 33712704,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 904966.328
+  },
+  "trace": [
+    {
+      "column": 50,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:56:34 PM error: uncaughtException: getAllFriends is not defined
+ReferenceError: getAllFriends is not defined
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: getAllFriends is not defined\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:56:34 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 26264,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86618112,
+      "heapTotal": 61345792,
+      "heapUsed": 33921648,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 904991.343
+  },
+  "trace": [
+    {
+      "column": 50,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:56:53 PM error: uncaughtException: getAllFriends is not defined
+ReferenceError: getAllFriends is not defined
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: getAllFriends is not defined\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:56:53 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 57248,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86269952,
+      "heapTotal": 61345792,
+      "heapUsed": 33907640,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 905010.89
+  },
+  "trace": [
+    {
+      "column": 50,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:57:11 PM error: uncaughtException: getAllFriends is not defined
+ReferenceError: getAllFriends is not defined
+    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: getAllFriends is not defined\n    at file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js:12:50\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Thu Apr 03 2025 23:57:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 49760,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\Neeraj-Mehra\\social_network_api\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 86519808,
+      "heapTotal": 61345792,
+      "heapUsed": 33919088,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 905029.015
+  },
+  "trace": [
+    {
+      "column": 50,
+      "file": "file:///C:/Users/hp/Desktop/Neeraj-Mehra/social_network_api/src/api/friends/index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+03-04-2025 11:58:10 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:58:22 PM info: Server running at : http://localhost:3000 
+03-04-2025 11:59:56 PM info: Server running at : http://localhost:3000 
